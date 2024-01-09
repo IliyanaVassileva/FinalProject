@@ -25,7 +25,7 @@ import static org.apache.commons.io.FileUtils.cleanDirectory;
 
 public class BaseClass {
 
-    private static final String SCREENSHOTS_DIR = "src/main/resources/Screenshots";
+    private static final String SCREENSHOTS_DIR = "src//main//resources//Screenshots//";
     private WebDriver driver;
 
     public WebDriver getDriver() {
