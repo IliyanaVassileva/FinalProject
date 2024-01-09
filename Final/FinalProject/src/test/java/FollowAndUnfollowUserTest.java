@@ -13,7 +13,7 @@ public class FollowAndUnfollowUserTest extends BaseClass{
     @DataProvider(name = "UserInformation")
     public Object[][] UserInformation() {
         return new Object[][]{
-                {"Iliyana1", "123456"}
+                {"Iliyana4", "123456"}
         };
     }
 
