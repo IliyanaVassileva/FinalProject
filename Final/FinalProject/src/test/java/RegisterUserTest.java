@@ -33,8 +33,12 @@ public class RegisterUserTest extends BaseClass {
 
         ProfilePage profilePage = new ProfilePage(getDriver());
         profilePage.isURLLoaded();
+        profilePage.getUsername();
 
         headerMenu.LogOut();
+        loginPage.isURLLoaded();
+
+        
 
 
 
