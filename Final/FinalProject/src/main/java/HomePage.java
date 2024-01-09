@@ -73,6 +73,8 @@ public class HomePage {
     }
 
     public void OpenUser(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.visibilityOf(User));
         User.click();
     }
 
