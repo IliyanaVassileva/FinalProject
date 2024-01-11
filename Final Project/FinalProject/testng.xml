@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FinalProject">
+    <test name="FinalProject">
+        <classes>
+            <class name="BaseClass"/>
+            <class name="EditProfileTest"/>
+            <class name="FollowAndUnfollowUserTest"/>
+            <class name="LikeUnlikeAndCommentPostTest"/>
+            <class name="NewPostAndDeleteTest"/>
+            <class name="RegisterUserTest"/>
+        </classes>
+    </test>
+</suite>
